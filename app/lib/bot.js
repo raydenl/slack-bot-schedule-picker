@@ -3,7 +3,7 @@
 const axios = require('axios');
 
 module.exports = app => {
-	const command = process.env.COMMAND || 'secret-message';
+	const command = process.env.COMMAND || 'schedule-picker';
 	const sharelock_base_path = process.env.SHARELOCK_BASE_PATH || 'https://sharelock.io'
 	const send_message_callback = 'send_message';
 	const url_visit_callback = 'url_visit';
